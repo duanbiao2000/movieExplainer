@@ -21,6 +21,7 @@ description: 从视频字幕文件自动提取雅思学习材料 (支持 .srt, .
 - `formats` (可选): 输出格式，逗号分隔 (md, worksheet, anki)，默认全部
 - `no_review` (可选): 是否跳过审核迭代环节，默认 false
 - `video_url` (可选): 视频源链接，用于生成 video-source.md 和在各文件中添加引用链接
+- `language` (可选): 输出语言，默认 "en" (支持: en=英语, zh=中文)
 
 ### 步骤 2: 验证输入
 
@@ -144,4 +145,6 @@ python .claude/scripts/csv-to-anki.py learning-materials/anki-deck.csv
 /extract-subtitle examples/sample-lesson.srt --formats md,anki
 /extract-subtitle examples/sample-lesson.srt --no-review
 /extract-subtitle examples/sample-lesson.srt --video-url https://www.bilibili.com/video/BV1xxx/
+/extract-subtitle examples/sample-lesson.srt --language zh
+/extract-subtitle examples/sample-lesson.srt -l en
 ```
