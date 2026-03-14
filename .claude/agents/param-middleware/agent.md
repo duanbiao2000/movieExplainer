@@ -71,6 +71,19 @@ description: 参数中间件 - 统一管理公共参数和数据流转
 }
 ```
 
+#### language 处理
+
+```json
+{
+  "language": "en",
+  "output_labels": {
+    "ipa": "IPA",
+    "meaning": "Meaning",
+    "example": "Example"
+  }
+}
+```
+
 ### 3. 数据流转日志
 
 记录每个 Agent 的输入输出，确保可追溯性。
@@ -95,6 +108,54 @@ description: 参数中间件 - 统一管理公共参数和数据流转
       "status": "success"
     }
   ]
+}
+```
+
+### 4. Language Parameter Handling
+
+When processing the `--language` parameter:
+
+1. **Validate the language code**
+   - Accept: `en`, `zh`
+   - Default: `en`
+   - Reject: any other value with clear error message
+
+2. **Load labels from config**
+   - Read `.claude/config/labels.json`
+   - Extract labels for the specified language
+   - Build configuration object
+
+3. **Pass to downstream agents**
+   - Include `language` in config object
+   - Include resolved labels in `output_labels` field
+
+### 5. Output Configuration
+
+The agent builds a configuration object that is passed to all downstream agents:
+
+For English (`language: "en"`):
+
+```json
+{
+  "language": "en",
+  "output_labels": {
+    "ipa": "IPA",
+    "meaning": "Meaning",
+    "example": "Example"
+  }
+}
+```
+
+For Chinese (`language: "zh"`):
+
+```json
+{
+  "language": "zh",
+  "output_labels": {
+    "ipa": "国际音标",
+    "meaning": "释义",
+    "example": "例句"
+  }
 }
 ```
 
