@@ -221,19 +221,19 @@ Your work is considered complete if and only if:
 
 ## Language-Specific Output
 
-根据 standardized configuration 中的 `language` 参数使用对应语言：
+Format output according to the `language` parameter from the standardized configuration:
 
-### 英语 (language: "en")
+### English (language: "en")
 
-- 使用 `labels.en.anki.*` 标签（如 `<b>IPA</b>`, `<b>Definition</b>`, `<b>POS</b>`, `<b>IELTS Score</b>`）
-- 输出内容为英语
+- Use `labels.en.anki.*` labels (e.g., `<b>IPA</b>`, `<b>Definition</b>`, `<b>POS</b>`, `<b>IELTS Score</b>`)
+- Output content in English
 
-### 中文 (language: "zh")
+### Chinese (language: "zh")
 
-- 使用 `labels.zh.anki.*` 标签（如 `<b>音标</b>`, `<b>中文</b>`, `<b>词性</b>`, `<b>IELTS评分</b>`）
-- 输出内容为中文
+- Use `labels.zh.anki.*` labels (e.g., `<b>音标</b>`, `<b>中文</b>`, `<b>词性</b>`, `<b>IELTS评分</b>`)
+- Output content in Chinese
 
-**重要**：以下 Anki CSV 示例使用英文标签作为参考。实际生成时，请根据 `language` 参数动态替换为对应语言的标签。
+**Note**: The Anki CSV examples below use English labels as reference. When generating, dynamically replace with labels corresponding to the `language` parameter.
 
 ## Anki CSV Output Format
 
@@ -264,4 +264,4 @@ Front	Back	Tags
 | `key-point-*` | ❌ No | - |
 | `collocation-*` | ❌ No | - |
 
-**IPA Format**: `<b>IPA</b>: /音标内容/<br>` (English) or `<b>音标</b>: /音标内容/<br>` (Chinese), placed at the very beginning of Back field
+**IPA Format**: `<b>IPA</b>: /.../<br>` (English) or `<b>音标</b>: /.../<br>` (Chinese), placed at the very beginning of Back field
