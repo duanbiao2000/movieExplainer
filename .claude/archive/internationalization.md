@@ -1,3 +1,9 @@
+> **ARCHIVED**: This roadmap has been implemented. See the implementation plan at
+> `docs/superpowers/plans/2026-03-14-language-core-migration.md` and the design spec at
+> `docs/superpowers/specs/2026-03-14-language-core-migration-design.md`.
+
+---
+
 # Future Todo - 语言参数国际化功能
 
 ## 背景
