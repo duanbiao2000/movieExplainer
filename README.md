@@ -143,6 +143,24 @@ source .venv/bin/activate  # Linux/Mac
 pip install genanki
 ```
 
+### Don't Want to Set Up the Environment?
+
+**No problem!** You can directly use the learning materials generated in the `projects/` directory.
+
+The author maintains **1-3 updates per week** with fresh content from various videos (TED talks, documentaries, news, IELTS materials, etc.).
+
+- Browse the `projects/` folder to find ready-to-use learning materials
+- Download Anki `.apkg` files for direct import
+- Use Markdown files for reference and study
+
+**Got specific needs?** Open an [issue](../../issues) to request:
+- Specific video/topic coverage
+- Custom vocabulary focus areas
+- IELTS band-specific materials
+- Feature suggestions
+
+---
+
 ## Quick Start
 
 ### 1. Open Project in VSCode
@@ -254,11 +272,38 @@ projects/             # Your workspace
 
 ## About the Author
 
-MovieExplainer is a learning tool developed during the author's IELTS preparation. The author is currently using Anki cards to accumulate and review vocabulary and expressions.
+MovieExplainer is a learning tool developed during the author's IELTS preparation journey. The author is currently using Anki cards to accumulate and review vocabulary and expressions.
 
-If you are also preparing for the IELTS exam or want to improve your English skills, feel free to contact the author to study together:
+If you are also preparing for the IELTS exam or want to improve your English skills, feel free to reach out:
 
 > **Email**: [duanbiao2000@gmail.com](mailto:duanbiao2000@gmail.com)
+> **Twitter**: [@duanbiao](https://twitter.com/duanbiao)
+
+---
+
+## 💡 Let's Build Something Amazing Together!
+
+**MovieExplainer is OPEN for collaboration!**
+
+I'm an ENTP-type learner who thrives on innovation, big ideas, and turning chaos into structure. If you're passionate about:
+
+- 🚀 **Expanding language support** - More languages? More exam types? Let's do it!
+- 🤖 **Enhancing AI capabilities** - Better extraction, smarter categorization? Bring it on!
+- 🎨 **Improving user experience** - Better workflows, cooler outputs? I'm all ears!
+- 📚 **Curating content** - Have amazing video recommendations? Fire away!
+- 🔧 **Hacking the code** - Want to refactor, optimize, or add features? You're welcome!
+
+**Why collaborate?**
+- Learn & grow together in a supportive environment
+- Build tools that actually help people (including ourselves!)
+- Experiment with cutting-edge AI & automation
+- Have fun while solving real problems
+
+**Don't hesitate** — Whether you're a seasoned developer, a curious learner, or just someone with a crazy idea. The best projects come from unexpected collaborations.
+
+Let's connect and create something meaningful together! 🎯
+
+---
 
 ## License
 
