@@ -26,6 +26,15 @@ description: 从视频字幕文件自动提取雅思学习材料 (支持 .srt, .
 
 确认文件存在且格式支持。
 
+### 步骤 2.5: 参数标准化 [NEW]
+
+使用 `param-middleware` SubAgent 处理参数：
+- 将原始参数转换为标准配置对象
+- 提取公共参数（video_url, target_band, formats）
+- 初始化数据流转日志
+
+**输出**: 标准化配置对象，传递给后续所有 Agent
+
 ### 步骤 3: 字幕解析
 
 使用 `subtitle-parser` SubAgent 解析字幕文件，提取纯文本和时间戳信息。
