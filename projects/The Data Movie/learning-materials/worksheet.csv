@@ -1,0 +1,127 @@
+Type,Question,Answer,Difficulty
+Vocabulary,"What does a ""data analyst"" do?","They use data to answer business questions, acting as a bridge between raw data and business decisions.",Band 7.0
+Vocabulary,"Define ""scalable"" in the context of data systems.","Able to handle growing amounts of data or users without performance degradation.",Band 7.0
+Vocabulary,"What is a ""dashboard"" in business intelligence?","An interactive visual display of data that allows users to explore and analyze information.",Band 7.0
+Vocabulary,"What does ""ad hoc"" mean?","Made or done for a particular purpose only, without planning; answering one-time questions.",Band 7.5
+Vocabulary,"Define ""proactive"" in business context.","Taking action to create change or prepare for future situations rather than reacting.",Band 7.0
+Vocabulary,"What is a ""pipeline"" in data engineering?","A automated system that moves and transforms data from source systems to destination layers.",Band 7.0
+Vocabulary,"What does ""insight"" mean?","A deep understanding or realization about something, especially from analyzing data.",Band 7.0
+Vocabulary,"Define ""underperform"".","To perform less well than expected or required; not meeting standards.",Band 7.0
+Vocabulary,"What is ""automation""?","The use of technology to perform tasks with minimal human intervention.",Band 7.0
+Vocabulary,"What does ""revenue"" mean?","Income that a company receives from its business activities.",Band 7.0
+Phrasal Verb,"What does ""pull from"" mean in data context?","To extract or retrieve data from a source.",Band 7.0
+Phrasal Verb,"Explain ""base on"".","To use something as the foundation for a decision or process.",Band 7.0
+Phrasal Verb,"What does ""lead to"" mean?","To cause or result in a particular outcome.",Band 7.0
+Phrasal Verb,"What is ""clean up"" in data processing?","To remove errors and inconsistencies from data.",Band 7.0
+Phrasal Verb,"Explain ""set up"".","To establish or configure a system or environment.",Band 7.0
+Phrasal Verb,"What does ""figure out"" mean?","To understand or solve something through thinking.",Band 7.0
+Phrasal Verb,"What is ""turn into""?","To transform or convert something into something else.",Band 7.0
+Phrasal Verb,"Explain ""scale up"".","To increase the size or capacity of a system.",Band 7.0
+Phrasal Verb,"What does ""connect to"" mean?","To establish a connection with a system or resource.",Band 7.0
+Phrasal Verb,"What is ""filter out""?","To remove unwanted items or data.",Band 7.0
+Phrasal Verb,"What does ""point out"" mean?","To draw attention to something important.",Band 7.0
+Phrasal Verb,"Explain ""follow up"".","To continue monitoring or checking on something.",Band 7.0
+Phrasal Verb,"What does ""build out"" mean?","To develop or construct something fully.",Band 7.5
+Phrasal Verb,"What is ""flow into""?","To enter or move into a destination continuously.",Band 7.0
+Phrasal Verb,"Explain ""end up"".","To eventually reach a particular state or result.",Band 7.0
+Fill in Blank,"Data analysts _____ as a bridge between raw data and business decisions.",act,Band 7.0
+Fill in Blank,"The Medalis architecture _____ data into three layers: Bronze, Silver, and Gold.",organizes,Band 7.0
+Fill in Blank,"Data engineers _____ data pipelines to automate data flow.",build,Band 7.0
+Fill in Blank,"BI developers _____ dashboards to make reports accessible 24/7.",create,Band 7.0
+Fill in Blank,"Data scientists use models to _____ future trends.",predict,Band 7.0
+Fill in Blank,"Without data, you're just another person with an _____.",opinion,Band 7.0
+Fill in Blank,"Big companies _____ huge amounts of data every day.",generate,Band 7.0
+Fill in Blank,"The data pipeline _____ data from source systems to the Gold layer.",moves,Band 7.0
+Fill in Blank,"Managers need quick answers to make _____ decisions.",smart,Band 7.0
+Fill in Blank,"The Bronze layer contains _____ data.",raw,Band 7.0
+Fill in Blank,"ML engineers _____ models into production environments.",deploy,Band 7.5
+Fill in Blank,"Interactive dashboards allow users to _____ with data directly.",interact,Band 7.0
+Fill in Blank,"Data must be _____, structured, and optimized before analysis.",clean,Band 7.0
+Fill in Blank,"The system is designed to be _____ and handle growth.",scalable,Band 7.0
+Fill in Blank,"Analysts use SQL to _____ databases for information.",query,Band 7.0
+Fill in Blank,"Reports should be _____ to save analysts time.",automated,Band 7.0
+Fill in Blank,"Decisions based on data are more reliable than those based on _____.",opinions,Band 7.0
+Fill in Blank,"The Silver layer contains _____ and structured data.",clean,Band 7.0
+Fill in Blank,"Scientists _____ with models to find the best predictions.",experiment,Band 7.0
+Fill in Blank,"A _____ system can handle increased data volume without problems.",scalable,Band 7.5
+True/False,"A data analyst manually extracts data from spreadsheets.",True,Band 7.0
+True/False,"Data architects design the blueprint of data systems.",True,Band 7.0
+True/False,"Data engineers answer business questions directly.",False - Data analysts answer business questions, Band 7.0
+True/False,"The Bronze layer contains clean and optimized data.",False - Bronze contains raw data, Band 7.0
+True/False,"BI developers create interactive dashboards for multiple users.",True,Band 7.0
+True/False,"Data scientists focus only on historical data analysis.",False - They focus on future predictions, Band 7.0
+True/False,"ML engineers deploy models into production environments.",True,Band 7.0
+True/False,"Ad hoc questions are planned and scheduled in advance.",False - They are one-time questions, Band 7.0
+True/False,"Automation makes data processes slower but more accurate.",False - Automation makes processes faster, Band 7.0
+True/False,"The Gold layer contains the most processed and optimized data.",True,Band 7.0
+True/False,"SQL is used for data visualization.",False - SQL is for querying databases, Band 7.0
+True/False,"Dashboards provide 24/7 access to business insights.",True,Band 7.0
+True/False,"Data pipelines require manual intervention for each data transfer.",False - They are automated, Band 7.0
+True/False,"Scalability means a system can handle growth.",True,Band 7.0
+True/False,"Business stakeholders include managers and project leads.",True,Band 7.0
+True/False,"Access management is unnecessary in data systems.",False - It's crucial for security, Band 7.5
+True/False,"Real-time data processing means immediate data availability.",True,Band 7.0
+True/False,"Data scientists help companies stay ahead of competition.",True,Band 7.0
+Short Answer,"What are the three main skills of a data analyst?","SQL for querying databases, Excel/spreadsheets for data manipulation, and data visualization tools like Power BI or Tableau.",Band 7.0
+Short Answer,"Why is automation important in data pipelines?","Automation saves time, reduces errors, ensures consistent data flow, and allows systems to scale without manual intervention.",Band 7.0
+Short Answer,"What is the purpose of the Medalis architecture's three layers?","To organize data by level of processing: Bronze (raw), Silver (cleaned), and Gold (optimized) for efficient data management.",Band 7.0
+Short Answer,"How do data scientists differ from data analysts?","Data analysts analyze historical data to answer current questions, while data scientists build models to predict future outcomes.",Band 7.0
+Short Answer,"What is the role of ML engineers in a data team?","They deploy machine learning models into production, ensuring they are secure, scalable, and available 24/7 for company-wide use.",Band 7.5
+Short Answer,"Why is access management important in BI systems?","Not all data should be visible to everyone; access management ensures security and provides appropriate data to different user groups.",Band 7.0
+Short Answer,"What does it mean for a system to be ""24/7 available""?","The system is always accessible and operational, day and night, without interruptions.",Band 7.0
+Short Answer,"How do data pipelines benefit business decision-making?","They ensure fast, automated delivery of clean data from sources to users, enabling quick and informed decisions.",Band 7.0
+Short Answer,"What is the difference between ad hoc questions and automated reports?","Ad hoc questions are one-time, unplanned queries, while automated reports are scheduled and run regularly without manual effort.",Band 7.0
+Short Answer,"Why do companies need predictive analytics?","To anticipate future trends, prepare for challenges, identify opportunities, and make proactive rather than reactive decisions.",Band 7.5
+Short Answer,"What tools do data analysts use for visualization?","Power BI, Tableau, and other dashboard tools that create interactive visual representations of data.",Band 7.0
+Short Answer,"What is the main challenge with manual data extraction?","It's time-consuming, error-prone, doesn't scale with data volume, and can cause system delays or failures.",Band 7.0
+Short Answer,"How does data storytelling help analysts?","It helps them communicate complex findings in an understandable way, making insights more compelling for stakeholders.",Band 7.0
+Short Answer,"What is the relationship between data engineers and data architects?","Architects design the system blueprint, while engineers build and implement the actual data pipelines and infrastructure.",Band 7.0
+Discussion,"Why is the quote ""Without data you're just another person with an opinion"" important for business?","This emphasizes that decisions based on facts and evidence (data) are more reliable than those based on personal opinions, which can be biased or incorrect.",Band 7.5
+Discussion,"How might a company suffer from NOT having a data team?","They would make decisions based on opinions rather than facts, miss opportunities, fail to predict problems, waste resources on ineffective strategies, and fall behind competitors.",Band 7.5
+Discussion,"Discuss the trade-offs between building an in-house data team vs. outsourcing data analytics.","In-house: better business understanding, faster response, data security, but higher cost. Outsourcing: lower cost, specialized expertise, but less control and slower communication.",Band 8.0
+Discussion,"How can data-driven decision-making give a company a competitive advantage?","It enables faster responses to market changes, identification of new opportunities, optimization of resources, and proactive rather than reactive strategies.",Band 7.5
+Discussion,"What ethical considerations should data teams keep in mind when handling customer data?","Privacy protection, data security, transparent usage policies, avoiding bias in models, and compliance with regulations like GDPR.",Band 8.0
+Discussion,"How might the role of data professionals evolve with AI and automation advancements?","Shift from technical tasks to strategic interpretation, more focus on model ethics and governance, greater emphasis on business communication, and continuous learning of new tools.",Band 8.0
+Discussion,"Discuss whether every company needs a full data team or if smaller companies can start with just analysts.","Smaller companies can start with analysts using spreadsheet tools, then add engineers and scientists as data volume grows and business becomes more complex.",Band 7.5
+Discussion,"How does poor data quality affect business decisions?","It leads to incorrect insights, bad decisions, wasted resources, missed opportunities, and loss of customer trust.",Band 7.5
+Discussion,"What skills become more important as automation increases in data processing?","Critical thinking, business acumen, communication, problem-solving, and the ability to interpret and question automated outputs rather than just producing them.",Band 8.0
+Discussion,"How can data teams ensure their insights actually lead to business action?","By communicating clearly to stakeholders, aligning with business goals, providing actionable recommendations, and building trust through accurate predictions.",Band 7.5
+Matching,"Match the role to its primary responsibility","Data Analyst|Answer business questions using data;Data Architect|Design scalable data system architecture;Data Engineer|Build data pipelines;BI Developer|Automate reports and dashboards;Data Scientist|Build predictive models;ML Engineer|Deploy models to production",Band 7.0
+Matching,"Match the layer to its data state","Bronze Layer|Raw, unprocessed data;Silver Layer|Cleaned and structured data;Gold Layer|Optimized and modeled data",Band 7.0
+Matching,"Match the tool to its purpose","SQL|Query databases;Excel|Clean and organize data;Power BI|Create visual dashboards;Python|Build models and automate",Band 7.0
+Matching,"Match the term to its definition","Scalability|Ability to handle growth;Automation|Reducing human intervention;Pipeline|Data transport system;Dashboard|Visual data interface",Band 7.0
+Multiple Choice,"Which layer contains raw, unprocessed data?","A) Gold Layer;B) Silver Layer;C) Bronze Layer;D) Platinum Layer","C",Band 7.0
+Multiple Choice,"What is the primary role of a data scientist?","A) Build pipelines;B) Create dashboards;C) Build predictive models;D) Design architecture","C",Band 7.0
+Multiple Choice,"Which tool is primarily used for querying databases?","A) Power BI;B) SQL;C) Excel;D) Tableau","B",Band 7.0
+Multiple Choice,"What does ""ad hoc"" mean in business context?","A) Automated;B) One-time, unplanned;C) Scheduled;D) Permanent","B",Band 7.0
+Multiple Choice,"Who is responsible for deploying models to production?","A) Data Analyst;B) Data Scientist;C) ML Engineer;D) BI Developer","C",Band 7.0
+Multiple Choice,"What is the main benefit of data automation?","A) More employees;B) Faster processing;C) Less accuracy;D) More manual work","B",Band 7.0
+Multiple Choice,"Which statement is true about data-driven decisions?","A) Based on opinions;B) Less reliable;C) Based on facts;D) Only for large companies","C",Band 7.0
+Multiple Choice,"What does 24/7 availability mean?","A) Available 24 days a month;B) Available during work hours;C) Always available;D) Available on weekends","C",Band 7.0
+Multiple Choice,"Who designs the blueprint of a data system?","A) Data Engineer;B) Data Architect;C) Data Analyst;D) ML Engineer","B",Band 7.0
+Multiple Choice,"What is the primary purpose of a dashboard?","A) Store raw data;B) Visualize data for users;C) Clean data;D) Train models","B",Band 7.0
+Multiple Choice,"Which role connects data to business questions?","A) ML Engineer;B) Data Analyst;C) Data Architect;D) Data Scientist","B",Band 7.0
+Multiple Choice,"What does ""scalable"" mean?","A) Fixed size;B) Can grow with demand;C) Gets slower with more data;D) Manual only","B",Band 7.0
+Multiple Choice,"Who automates reports and builds dashboards?","A) Data Scientist;B) Data Engineer;C) BI Developer;D) Data Architect","C",Band 7.0
+Multiple Choice,"What is the Gold Layer known for?","A) Raw data;B) Clean data;C) Optimized data;D) Unstructured data","C",Band 7.0
+Multiple Choice,"Which skill is NOT typically required for data analysts?","A) SQL;B) Communication;C) System architecture design;D) Excel","C",Band 7.0
+Word Formation,"Complete: The _____ of a new dashboard improved reporting efficiency. (deploy)","deployment,Band 7.0
+Word Formation,"Complete: Data teams must ensure the _____ of sensitive information. (secure)","security,Band 7.0
+Word Formation,"Complete: The system's _____ allows it to handle increasing data volume. (scalable)","scalability,Band 7.0
+Word Formation,"Complete: _____ decisions are based on evidence rather than guesses. (decide)","Decisions/Band 7.0
+Word Formation,"Complete: The _____ of data from multiple sources requires automation. (collect)","collection,Band 7.0
+Word Formation,"Complete: Effective _____ of insights is crucial for stakeholder buy-in. (communicate)","communication,Band 7.0
+Word Formation,"Complete: Data _____ helps identify patterns and trends. (visualize)","visualization/Band 7.0
+Word Formation,"Complete: The _____ team maintains the data infrastructure. (maintain)","maintenance,Band 7.0
+Word Formation,"Complete: _____ innovations drive competitive advantage. (innovate)"Innovations,Band 7.0
+Word Formation,"Complete: Proper data _____ ensures quality analysis. (structure)"Structuring/structure,Band 7.0
+Sentence Completion,"The Medalis architecture _____ data into _____ layers: Bronze for raw data, Silver for _____ data, and Gold for _____ data.",organizes,three,clean,optimized,Band 7.0
+Sentence Completion,"Data analysts use _____ to query databases, _____ for cleaning data, and _____ tools like Power BI for visualization.",SQL,Excel,dashboard,Band 7.0
+Sentence Completion,"Without _____, businesses make decisions based on _____ rather than _____, which can lead to _____ outcomes.",data,opinions,facts,poor,Band 7.0
+Sentence Completion,"Data engineers build _____ that automatically move data from _____ through the Bronze and Silver layers to the _____ layer.",pipelines,source systems,Gold,Band 7.0
+Sentence Completion,"BI developers create _____ dashboards that are available _____, allowing _____ users to access reports _____.",interactive,24/7,multiple,automatically,Band 7.0
+Sentence Completion,"Data scientists build and _____ models to answer questions about the _____, helping companies stay _____ of the competition.",train,future,ahead,Band 7.0
+Sentence Completion,"ML engineers _____ models into production, ensuring they are _____, _____, and available _____ for the entire company.",deploy,secure,scalable,24/7,Band 7.0
+Sentence Completion,"A _____ system can handle _____ amounts of data without _____ in performance.",scalable,growing,degradation,Band 7.0
+Sentence Completion,"Good data _____ involves explaining findings clearly to _____ who may not have technical backgrounds.",communication,stakeholders,Band 7.0
+Sentence Completion,"The Bronze layer contains _____ data from sources, the Silver layer has _____ and structured data, while the Gold layer contains _____ data ready for analysis.",raw,cleaned,optimized,Band 7.0

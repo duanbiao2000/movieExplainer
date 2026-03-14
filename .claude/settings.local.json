@@ -8,7 +8,22 @@
       "Bash(python d:/Mycodes/Lab/movieExplainer/.claude/scripts/csv-to-anki.py anki-deck.csv)",
       "Bash(pip install:*)",
       "Bash(pip3 install:*)",
-      "Bash(python -m pip install genanki)"
+      "Bash(python -m pip install genanki)",
+      "Bash(python -m json.tool .claude/config/labels.json)",
+      "Bash(python -c \":*)",
+      "Bash(git rm:*)",
+      "Bash(python .claude/scripts/csv-to-anki.py \"projects/He Found A Island/learning-materials/anki-deck.csv\")",
+      "Bash(python .claude/scripts/csv-to-anki.py \"d:/Mycodes/Lab/movieExplainer/learning-materials/anki-deck.csv\")",
+      "Bash(grep -E \"\\\\.\\(csv|apkg|md\\)$\")",
+      "Bash(xargs grep:*)",
+      "Bash(git checkout:*)",
+      "Bash(git push:*)",
+      "Skill(code-review:code-review)",
+      "Skill(code-review:code-review:*)",
+      "Bash(gh api:*)",
+      "Bash(gh repo:*)",
+      "Bash(git pull:*)",
+      "Bash(git merge:*)"
     ]
   }
 }

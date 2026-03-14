@@ -1,0 +1,95 @@
+#separator:tab
+#html:true
+#tags:true
+Front	Tags
+<h1>prisoner</h1><p><b>音标</b>: /ˈprɪznər/<br><b>中文</b>: 囚犯，犯人<br><b>词性</b>: n.<br><b>例句</b>: "new prisoners were being brought to this prison"</p>	vocabulary::basic::noun
+<h1>warden</h1><p><b>音标</b>: /ˈwɔːrdn/<br><b>中文</b>: 典狱长，看守人<br><b>词性</b>: n.<br><b>例句</b>: "When he met the warden, Edmund said"</p>	vocabulary::basic::noun
+<h1>conspiracy</h1><p><b>音标</b>: /kənˈspɪrəsi/<br><b>中文</b>: 阴谋，密谋<br><b>词性</b>: n.<br><b>例句</b>: "Only those against whom a conspiracy has been made are brought to this remote prison"</p>	vocabulary::advanced::noun
+<h1>treasure</h1><p><b>音标</b>: /ˈtreʒər/<br><b>中文</b>: 宝藏，财富<br><b>词性</b>: n.<br><b>例句</b>: "500-year-old treasure map"</p>	vocabulary::basic::noun
+<h1>revenge</h1><p><b>音标</b>: /rɪˈvendʒ/<br><b>中文</b>: 复仇<br><b>词性</b>: n.<br><b>例句</b>: "to take revenge on his enemies"</p>	vocabulary::basic::noun
+<h1>betrayal</h1><p><b>音标</b>: /bɪˈtreɪəl/<br><b>中文</b>: 背叛<br><b>词性</b>: n.<br><b>例句</b>: "Both of them had been locked away because of betrayal"</p>	vocabulary::advanced::noun
+<h1>fortune</h1><p><b>音标</b>: /ˈfɔːrtʃuːn/<br><b>中文</b>: 巨款，财富<br><b>词性</b>: n.<br><b>例句</b>: "His master had earned a huge fortune"</p>	vocabulary::intermediate::noun
+<h1>luxurious</h1><p><b>音标</b>: /lʌɡˈʒʊriəs/<br><b>中文</b>: 奢侈的，豪华的<br><b>词性</b>: adj.<br><b>例句</b>: "big luxurious house"</p>	vocabulary::advanced::adjective
+<h1>magnificent</h1><p><b>音标</b>: /mæɡˈnɪfɪsnt/<br><b>中文</b>: 壮丽的，宏伟的<br><b>词性</b>: adj.<br><b>例句</b>: "magnificent mansion"</p>	vocabulary::advanced::adjective
+<h1>nobleman</h1><p><b>音标</b>: /ˈnoʊblmən/<br><b>中文</b>: 贵族<br><b>词性</b>: n.<br><b>例句</b>: "the new nobleman of France"</p>	vocabulary::intermediate::noun
+<h1>corrupt</h1><p><b>音标</b>: /kəˈrʌpt/<br><b>中文</b>: 腐败的<br><b>词性</b>: adj.<br><b>例句</b>: "corrupt magistrate who had full control"</p>	vocabulary::advanced::adjective
+<h1>treacherous</h1><p><b>音标</b>: /ˈtretʃərəs/<br><b>中文</b>: 背叛的，奸诈的<br><b>词性</b>: adj.<br><b>例句</b>: "treacherous friend, Montigue"</p>	vocabulary::advanced::adjective
+<h1>deserted</h1><p><b>音标</b>: /dɪˈzɜːrtɪd/<br><b>中文</b>: 荒凉的，无人居住的<br><b>词性</b>: adj.<br><b>例句</b>: "prison built on a deserted island"</p>	vocabulary::intermediate::adjective
+<h1>faith</h1><p><b>音标</b>: /feɪθ/<br><b>中文</b>: 信仰，信念<br><b>词性</b>: n.<br><b>例句</b>: "lost his faith in God"</p>	vocabulary::intermediate::noun
+<h1>grief</h1><p><b>音标</b>: /ɡriːf/<br><b>中文</b>: 悲伤，悲痛<br><b>词性</b>: n.<br><b>例句</b>: "father had died of grief"</p>	vocabulary::intermediate::noun
+<h1>justice</h1><p><b>音标</b>: /ˈdʒʌstɪs/<br><b>中文</b>: 正义，公正<br><b>词性</b>: n.<br><b>例句</b>: "give him justice"</p>	vocabulary::intermediate::noun
+<h1>escape</h1><p><b>音标</b>: /ɪˈskeɪp/<br><b>中文</b>: 逃脱，逃离<br><b>词性</b>: v.<br><b>例句</b>: (implied throughout story)</p>	vocabulary::basic::verb
+<h1>imprison</h1><p><b>音标</b>: /ɪmˈprɪzn/<br><b>中文</b>: 监禁<br><b>词性</b>: v.<br><b>例句</b>: "Napoleon had imprisoned Abbe"</p>	vocabulary::advanced::verb
+<h1>drown</h1><p><b>音标</b>: /draʊn/<br><b>中文</b>: 淹死<br><b>词性</b>: v.<br><b>例句</b>: "drowned the warden in the sea"</p>	vocabulary::intermediate::verb
+<h1>struggle</h1><p><b>音标</b>: /ˈstrʌɡl/<br><b>中文</b>: 挣扎，斗争<br><b>词性</b>: v./n.<br><b>例句</b>: "the fight between the two began"</p>	vocabulary::intermediate::verb
+<h1>stubborn</h1><p><b>音标</b>: /ˈstʌbərn/<br><b>中文</b>: 固执的<br><b>词性</b>: adj.<br><b>例句</b>: "Edmund became stubborn"</p>	vocabulary::intermediate::adjective
+<h1>skillful</h1><p><b>音标</b>: /ˈskɪlfl/<br><b>中文</b>: 熟练的<br><b>词性</b>: adj.<br><b>例句</b>: "very skilled swordsman"</p>	vocabulary::intermediate::adjective
+<h1>capable</h1><p><b>音标</b>: /ˈkeɪpəbl/<br><b>中文</b>: 有能力的<br><b>词性</b>: adj.<br><b>例句</b>: "become a capable warrior"</p>	vocabulary::intermediate::adjective
+<h1>loyal</h1><p><b>音标</b>: /ˈlɔɪəl/<br><b>中文</b>: 忠诚的<br><b>词性</b>: adj.<br><b>例句</b>: "remain loyal to him"</p>	vocabulary::intermediate::adjective
+<h1>bankrupt</h1><p><b>音标</b>: /ˈbæŋkrʌpt/<br><b>中文</b>: 破产的<br><b>词性</b>: adj.<br><b>例句</b>: "Montigue, now bankrupt"</p>	vocabulary::intermediate::adjective
+<h1>lock up</h1><p><b>短语动词</b><br><b>中文</b>: 关押，锁住<br><b>例句</b>: "locked him in a prison cell"</p>	phrasal-verb::action
+<h1>break out</h1><p><b>短语动词</b><br><b>中文</b>: 越狱，逃脱<br><b>例句</b>: (implied in escape)</p>	phrasal-verb::action
+<h1>dig out</h1><p><b>短语动词</b><br><b>中文</b>: 挖出<br><b>例句</b>: "Edmund dug the tunnel"</p>	phrasal-verb::action
+<h1>set off</h1><p><b>短语动词</b><br><b>中文</b>: 出发<br><b>例句</b>: "set off for the island"</p>	phrasal-verb::movement
+<h1>find out</h1><p><b>短语动词</b><br><b>中文</b>: 发现，查明<br><b>例句</b>: "found out that his old friend...had framed him"</p>	phrasal-verb::discovery
+<h1>turn out</h1><p><b>短语动词</b><br><b>中文</b>: 结果是<br><b>例句</b>: "It turned out they had been digging in the wrong direction"</p>	phrasal-verb::discovery
+<h1>knock down</h1><p><b>短语动词</b><br><b>中文</b>: 击倒<br><b>例句</b>: "knocked Yakob down"</p>	phrasal-verb::action
+<h1>fight back</h1><p><b>短语动词</b><br><b>中文</b>: 反击<br><b>例句</b>: (self-defense)</p>	phrasal-verb::action
+<h1>frame someone</h1><p><b>短语动词</b><br><b>中文</b>: 诬陷<br><b>例句</b>: "had framed Edmund"</p>	phrasal-verb::crime
+<h1>join hands with</h1><p><b>短语动词</b><br><b>中文</b>: 携手，联合<br><b>例句</b>: "joined hands with Edmund"</p>	phrasal-verb::relationship
+<h1>lose faith in</h1><p><b>短语动词</b><br><b>中文</b>: 失去信仰/信心<br><b>例句</b>: "lost his faith in God"</p>	phrasal-verb::emotion
+<h1>dive into</h1><p><b>短语动词</b><br><b>中文</b>: 潜入<br><b>例句</b>: "dived into an underground pond"</p>	phrasal-verb::movement
+<h1>carry out</h1><p><b>短语动词</b><br><b>中文</b>: 执行<br><b>例句</b>: (revenge plan)</p>	phrasal-verb::action
+<h1>set up</h1><p><b>短语动词</b><br><b>中文</b>: 设置，安排<br><b>例句</b>: "staged a fake kidnapping"</p>	phrasal-verb::action
+<h1>keep promise</h1><p><b>短语动词</b><br><b>中文</b>: 信守承诺<br><b>例句</b>: "made him promise"</p>	phrasal-verb::relationship
+<h1>This caused...</h1><p><b>IELTS Band 7.0+</b><br><b>中文</b>: 这导致...<br><b>用法</b>: 因果关系标记<br><b>例句</b>: "This caused only those against whom a conspiracy has been made are brought to this remote prison"</p>	ielts::cause-effect
+<h1>Because of this...</h1><p><b>IELTS Band 7.0+</b><br><b>中文</b>: 因此...<br><b>用法</b>: 结果链接<br><b>例句</b>: "Because of the damage to his lungs, he could die at any moment"</p>	ielts::cause-effect
+<h1>However</h1><p><b>IELTS Band 7.0+</b><br><b>中文</b>: 然而<br><b>用法</b>: 标准对比<br><b>例句</b>: "However, when Mercedes saw him, she had a strange feeling"</p>	ielts::contrast
+<h1>Although</h1><p><b>IELTS Band 7.0+</b><br><b>中文</b>: 虽然<br><b>用法</b>: 让步从句<br><b>例句</b>: "Although it felt like a heavy burden"</p>	ielts::contrast
+<h1>Despite</h1><p><b>IELTS Band 7.5+</b><br><b>中文</b>: 尽管<br><b>用法</b>: 介词性让步<br><b>例句</b>: "Despite several attacks, Yakob couldn't even touch Edmund"</p>	ielts::contrast
+<h1>Meanwhile</h1><p><b>IELTS Band 7.0+</b><br><b>中文</b>: 与此同时<br><b>用法</b>: 同时行动标记<br><b>例句</b>: "Meanwhile, Jacob informed Edmund"</p>	ielts::time
+<h1>Eventually</h1><p><b>IELTS Band 7.0+</b><br><b>中文</b>: 最终<br><b>用法</b>: 最终结果标记<br><b>例句</b>: (implied ending)</p>	ielts::time
+<h1>In conclusion</h1><p><b>IELTS Band 7.0+</b><br><b>中文</b>: 总之<br><b>用法</b>: 结论标记<br><b>例句</b>: (essay ending)</p>	ielts::conclusion
+<h1>Furthermore</h1><p><b>IELTS Band 7.5+</b><br><b>中文</b>: 此外<br><b>用法</b>: 补充标记<br><b>例句</b>: (addition)</p>	ielts::addition
+<h1>To some extent</h1><p><b>IELTS Band 7.5+</b><br><b>中文</b>: 在某种程度上<br><b>用法</b>: 限定表达<br><b>例句</b>: (qualifying arguments)</p>	ielts::hedging
+<h1>Why was Edmund sent to prison?</h1><p><b>情节细节</b></p><p>He was framed by his friend Montigue and others who made false charges against him</p>	plot::detail
+<h1>How many years was Edmund in prison?</h1><p><b>情节细节</b></p><p>13 years (12 years before meeting Abbe, plus more time after)</p>	plot::detail
+<h1>Who was Abbe Faria?</h1><p><b>角色</b></p><p>A prisoner from the floor below who became Edmund's mentor and friend</p>	character::mentor
+<h1>What did Abbe Faria teach Edmund?</h1><p><b>情节细节</b></p><p>Swordsmanship, knowledge, and various skills during their time together</p>	plot::detail
+<h1>Where was the treasure hidden?</h1><p><b>情节细节</b></p><p>In underwater chests on an island marked on the treasure map</p>	plot::detail
+<h1>Who were Edmund's three enemies?</h1><p><b>角色</b></p><p>Montigue (his friend), Wilfford (the magistrate), and a third man who helped frame him</p>	character::enemy
+<h1>How did Edmund escape from prison?</h1><p><b>情节细节</b></p><p>He swapped places with Abbe's dead body and was thrown into the sea</p>	plot::detail
+<h1>Who was Albert?</h1><p><b>角色</b></p><p>Edmund's son with Mercedes, though raised believing Montigue was his father</p>	character::relationship
+<h1>How did Mercedes recognize Edmund?</h1><p><b>情节细节</b></p><p>When he twisted her hair in a special way - something only he used to do</p>	plot::detail
+<h1>What happened to Montigue at the end?</h1><p><b>情节细节</b></p><p>Edmund killed him in a sword fight after discovering Montigue's treasure was gone</p>	plot::ending
+<h1>What did Edmund do with the island prison?</h1><p><b>情节细节</b></p><p>He bought it so no one else would have to suffer the pain he went through</p>	plot::resolution
+<h1>Theme: Betrayal and Revenge</h1><p><b>主题讨论</b></p><p>How betrayal by a trusted friend can transform a person and drive them to seek vengeance</p>	theme::major
+<h1>Theme: Justice vs. Revenge</h1><p><b>主题讨论</b></p><p>The moral complexity of seeking personal vengeance vs. trusting in legal justice</p>	theme::moral
+<h1>Theme: Identity and Transformation</h1><p><b>主题讨论</b></p><p>How Edmund transforms from an innocent sailor to a wealthy avenger to a redeemed man</p>	theme::character
+<h1>Theme: Hope and Despair</h1><p><b>主题讨论</b></p><p>The psychological journey from despair in solitary confinement to hope through friendship</p>	theme::psychological
+<h1>Theme: Redemption</h1><p><b>主题讨论</b></p><p>How Edmund finds redemption by sparing Montigue's son and using wealth for good</p>	theme::moral
+<h1>What role did fate play in the story?</h1><p><b>讨论问题</b></p><p>Open-ended: The tunnel coincidentally reaching Edmund's cell, perfect timing of escapes, etc.</p>	discussion::theme
+<h1>Was Edmund's revenge justified?</h1><p><b>讨论问题</b></p><p>Open-ended: Discuss justice, proportionality, moral complexity</p>	discussion::ethics
+<h1>How does the story explore corruption?</h1><p><b>讨论问题</b></p><p>Open-ended: Corrupt magistrate, legal system abuse, power corrupting all three enemies</p>	discussion::society
+<h1>What does the story say about family?</h1><p><b>讨论问题</b></p><p>Open-ended: Father dying of grief, Mercedes protecting Albert, Edmund reclaiming his family</p>	discussion::relationships
+<h1>Execute: ""The prisoners tried to ___ from the prison.""</h1><p><b>句子练习</b></p><p>escape / break out</p>	practice::verb
+<h1>Execute: ""He was ___ in a small cell.""</h1><p><b>句子练习</b></p><p>locked up / imprisoned</p>	practice::verb
+<h1>Execute: ""They ___ the treasure map in an old chest.""</h1><p><b>句子练习</b></p><p>found / discovered</p>	practice::verb
+<h1>Execute: ""The warden ___ Edmund badly.""</h1><p><b>句子练习</b></p><p>beat / assaulted</p>	practice::verb
+<h1>Execute: ""Edmund decided to ___ revenge on his enemies.""</h1><p><b>句子练习</b></p><p>take / exact</p>	practice::verb
+<h1>Execute: ""The treasure belonged to a ___ family.""</h1><p><b>句子练习</b></p><p>wealthy / rich</p>	practice::adjective
+<h1>Execute: ""They lived in a ___ mansion.""</h1><p><b>句子练习</b></p><p>magnificent / luxurious / splendid</p>	practice::adjective
+<h1>Execute: ""The ___ magistrate took bribes.""</h1><p><b>句子练习</b></p><p>corrupt / dishonest</p>	practice::adjective
+<h1>Execute: ""His friend's ___ shocked him.""</h1><p><b>句子练习</b></p><p>betrayal / treachery</p>	practice::noun
+<h1>Execute: ""He felt deep ___ when his father died.""</h1><p><b>句子练习</b></p><p>grief / sorrow / sadness</p>	practice::noun
+<h1>Summary: The story in one sentence</h1><p><b>理解测试</b></p><p>A sailor is falsely imprisoned, escapes with a mentor's help, finds treasure, and seeks revenge against those who betrayed him, ultimately finding redemption through love and forgiveness.</p>	comprehension::summary
+<h1>Why did the tunnel collapse?</h1><p><b>理解测试</b></p><p>They were digging in the wrong direction and hit a weak point, causing stones and soil to fall on them</p>	comprehension::detail
+<h1>What was Abbe Faria's last wish?</h1><p><b>理解测试</b></p><p>That Edmund would use the treasure for good and stay away from bad deeds</p>	comprehension::character
+<h1>How did Edmund become the Count of Monte Cristo?</h1><p><b>理解测试</b></p><p>He used the treasure to buy a luxurious house and presented himself as a French nobleman</p>	comprehension::plot
+<h1>Why did Edmund stage Albert's kidnapping?</h1><p><b>理解测试</b></p><p>To appear as Albert's savior and gain access to Montigue's social circle for his revenge plan</p>	comprehension::strategy
+<h1>How did Wilfford die?</h1><p><b>理解测试</b></p><p>He was arrested after confessing to his crimes while police secretly listened</p>	comprehension::plot
+<h1>What was in Montigue's treasure chests?</h1><p><b>理解测试</b></p><p>Sand - Edmund had secretly replaced the treasure with sand</p>	comprehension::twist
+<h1>How did Jacob show loyalty to Edmund?</h1><p><b>理解测试</b></p><p>By saving his life during the fight and promising to remain loyal forever</p>	comprehension::character
+<h1>What message does the story convey about revenge?</h1><p><b>主题理解</b></p><p>That revenge can consume a person but redemption is possible through love, family, and using power for good</p>	comprehension::theme
+<h1>How long did it take Edmund to complete his revenge?</h1><p><b>细节理解</b></p><p>Several years after his escape - time to find treasure, establish his identity, and carefully execute his plan</p>	comprehension::detail
+<h1>What role does the island prison play in the story's symbolism?</h1><p><b>象征理解</b></p><p>It represents despair and suffering, but Edmund buying it shows breaking the cycle and transforming pain into good</p>	comprehension::symbolism
