@@ -8,7 +8,17 @@ description: 从文本中提取雅思学习内容 (Key Points, Verb Phrases, Voc
 
 ## 输入
 
-来自字幕解析器的纯文本内容。
+来自字幕解析器的纯文本内容和可选的视频 URL。
+
+## 视频源链接参数
+
+- `video_url` (可选): 视频源链接
+- 如果提供了 `video_url`，在所有生成的 Markdown 文件顶部添加视频链接引用：
+  ```markdown
+  ---
+  **视频源**: [观看原视频](VIDEO_URL)
+  ---
+  ```
 
 ## 提取任务
 
@@ -18,6 +28,10 @@ description: 从文本中提取雅思学习内容 (Key Points, Verb Phrases, Voc
 
 **格式**:
 ```markdown
+---
+**视频源**: [观看原视频](VIDEO_URL)
+---
+
 # Key Points
 
 ## 核心论点
@@ -32,6 +46,8 @@ description: 从文本中提取雅思学习内容 (Key Points, Verb Phrases, Voc
 - 主要结论
 ```
 
+**注意**: 如果提供了 `video_url`，在文件顶部添加视频链接头部；否则省略。
+
 ### 2. Verb Phrases (动词短语)
 
 提取有价值的动词短语和固定搭配。
@@ -43,6 +59,10 @@ description: 从文本中提取雅思学习内容 (Key Points, Verb Phrases, Voc
 
 **格式**:
 ```markdown
+---
+**视频源**: [观看原视频](VIDEO_URL)
+---
+
 # Verb Phrases
 
 | 短语 | 音标 | 释义 | 原文例句 | 雅思分数 |
@@ -51,6 +71,8 @@ description: 从文本中提取雅思学习内容 (Key Points, Verb Phrases, Voc
 | account for | /əˈkaʊnt fɔːr/ | 解释，占据 | [原文例句] | 7.0+ |
 | rely on | /rɪˈlaɪ ɒn/ | 依赖于 | [原文例句] | 6.0+ |
 ```
+
+**注意**: 如果提供了 `video_url`，在文件顶部添加视频链接头部；否则省略。
 
 ### 3. Vocabulary (词汇表)
 
@@ -63,6 +85,10 @@ description: 从文本中提取雅思学习内容 (Key Points, Verb Phrases, Voc
 
 **格式**:
 ```markdown
+---
+**视频源**: [观看原视频](VIDEO_URL)
+---
+
 # Vocabulary
 
 | 单词 | 音标 | 词性 | 释义 | 原文例句 | 频率 |
@@ -71,6 +97,8 @@ description: 从文本中提取雅思学习内容 (Key Points, Verb Phrases, Voc
 | implementation | /ˌɪmplɪmenˈteɪʃn/ | n | 实施，执行 | [原文例句] | 中频 |
 | significant | /sɪɡˈnɪfɪkənt/ | adj | 重要的，显著的 | [原文例句] | 高频 |
 ```
+
+**注意**: 如果提供了 `video_url`，在文件顶部添加视频链接头部；否则省略。
 
 **频率标注**:
 - 高频: 雅思中出现频率高，必须掌握
@@ -88,6 +116,10 @@ description: 从文本中提取雅思学习内容 (Key Points, Verb Phrases, Voc
 
 **格式**:
 ```markdown
+---
+**视频源**: [观看原视频](VIDEO_URL)
+---
+
 # IELTS Expressions
 
 | 表达 | 适用任务 | 分数目标 | 用法说明 |
@@ -97,6 +129,8 @@ description: 从文本中提取雅思学习内容 (Key Points, Verb Phrases, Voc
 | A compelling case can be made for... | Task 2 | 7.5+ | 表达立场的正式表达 |
 | From my perspective,... | Speaking Part 3 | 6.5+ | 个人观点表达 |
 ```
+
+**注意**: 如果提供了 `video_url`，在文件顶部添加视频链接头部；否则省略。
 
 ## 输出格式
 

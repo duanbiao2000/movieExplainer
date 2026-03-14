@@ -20,6 +20,7 @@ description: 从视频字幕文件自动提取雅思学习材料 (支持 .srt, .
 - `target_band` (可选): 目标雅思分数，默认 7.0
 - `formats` (可选): 输出格式，逗号分隔 (md, worksheet, anki)，默认全部
 - `no_review` (可选): 是否跳过审核迭代环节，默认 false
+- `video_url` (可选): 视频源链接，用于生成 video-source.md 和在各文件中添加引用链接
 
 ### 步骤 2: 验证输入
 
@@ -76,11 +77,37 @@ Front	Back	Tags
 
 将结果保存到字幕文件同目录下的 `learning-materials/` 文件夹。
 
+**如果提供了 `video_url` 参数**，额外生成 `video-source.md`：
+
+```markdown
+# 视频源信息
+
+## 原始视频
+
+[点击观看视频](VIDEO_URL)
+
+## 元数据
+
+- **视频标题**: [从字幕文件名提取]
+- **生成日期**: [当前日期 YYYY-MM-DD]
+- **目标分数**: Band [target_band]
+- **字幕文件**: [subtitle_file].srt
+```
+
+**同时**，将 `video_url` 传递给 `content-extractor` SubAgent，使其在所有生成的 `.md` 文件顶部添加视频链接引用：
+
+```markdown
+---
+**视频源**: [观看原视频](VIDEO_URL)
+---
+```
+
 ## 输出结构
 
 ```
 video-lesson.srt
 └── learning-materials/
+    ├── video-source.md       # 视频源信息 [当提供 video_url 时]
     ├── key-points.md          # 关键观点
     ├── vocabulary.md          # 词汇表
     ├── verb-phrases.md        # 动词短语
@@ -107,4 +134,5 @@ python .claude/scripts/csv-to-anki.py learning-materials/anki-deck.csv
 /extract-subtitle examples/sample-lesson.srt --target-band 7.5
 /extract-subtitle examples/sample-lesson.srt --formats md,anki
 /extract-subtitle examples/sample-lesson.srt --no-review
+/extract-subtitle examples/sample-lesson.srt --video-url https://www.bilibili.com/video/BV1xxx/
 ```
