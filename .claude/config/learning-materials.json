@@ -1,0 +1,15 @@
+{
+  "defaultTargetBand": 7.0,
+  "defaultFormats": ["md", "worksheet", "anki"],
+  "outputDirectoryName": "learning-materials",
+  "maxIterations": 3,
+  "autoProcessOnSave": false,
+  "watchPatterns": ["**/*.srt", "**/*.vtt", "**/*.txt"],
+  "excludePatterns": ["node_modules/**", ".git/**"],
+  "extractionOptions": {
+    "minWordFrequency": 2,
+    "maxVocabularyItems": 50,
+    "maxVerbPhrases": 30,
+    "maxIELTSExpressions": 20
+  }
+}

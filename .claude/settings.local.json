@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p d:/Mycodes/Lab/movieExplainer/.claude/skills/extract-subtitle)",
+      "Bash(mv d:/Mycodes/Lab/movieExplainer/.claude/skills/extract-subtitle.md d:/Mycodes/Lab/movieExplainer/.claude/skills/extract-subtitle/SKILL.md)",
+      "Bash(find /d/Mycodes/Lab/movieExplainer -name *.md -type f)",
+      "Bash(python3 d:/Mycodes/Lab/movieExplainer/.claude/scripts/csv-to-anki.py anki-deck.csv)",
+      "Bash(python d:/Mycodes/Lab/movieExplainer/.claude/scripts/csv-to-anki.py anki-deck.csv)",
+      "Bash(pip install:*)",
+      "Bash(pip3 install:*)",
+      "Bash(python -m pip install genanki)"
+    ]
+  }
+}

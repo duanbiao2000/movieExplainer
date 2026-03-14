@@ -1,0 +1,51 @@
+{
+  "name": "movie-explainer",
+  "displayName": "MovieExplainer - 雅思字幕学习助手",
+  "description": "从视频字幕文件自动提取雅思学习材料的工作流系统",
+  "version": "0.1.0",
+  "publisher": "danny",
+  "skills": [
+    {
+      "name": "extract-subtitle",
+      "path": "skills/extract-subtitle/SKILL.md"
+    }
+  ],
+  "hooks": [
+    {
+      "name": "session-stop",
+      "path": "hooks/session-stop.md"
+    }
+  ],
+  "agents": [
+    {
+      "name": "subtitle-parser",
+      "description": "解析字幕文件 (SRT/VTT/TXT)",
+      "path": "agents/subtitle-parser"
+    },
+    {
+      "name": "content-extractor",
+      "description": "提取学习内容 (Key Points, Verb Phrases, Vocabulary, IELTS Expressions)",
+      "path": "agents/content-extractor"
+    },
+    {
+      "name": "content-reviewer",
+      "description": "审核提取内容的质量",
+      "path": "agents/content-reviewer"
+    },
+    {
+      "name": "iteration-optimizer",
+      "description": "多轮迭代优化内容",
+      "path": "agents/iteration-optimizer"
+    },
+    {
+      "name": "ielts-coach",
+      "description": "生成个性化雅思学习计划",
+      "path": "agents/ielts-coach"
+    },
+    {
+      "name": "polish-refactoror",
+      "description": "润色和重构最终文档",
+      "path": "agents/polish-refactoror"
+    }
+  ]
+}
