@@ -195,6 +195,23 @@ learning-materials/
 └── anki-deck.apkg         # Anki deck package (manually generated)
 ```
 
+## Language Support
+
+MovieExplainer supports multiple output languages:
+
+- **English (default)** - Learning materials in English
+- **Chinese (中文)** - 学习材料使用中文
+
+**Usage:**
+
+```bash
+# English output (default)
+/extract-subtitle video.srt
+
+# Chinese output
+/extract-subtitle video.srt --language zh
+```
+
 ## Generate Anki .apkg Files
 
 The .apkg format is Anki's official package format that can be imported with a double-click, no additional configuration needed.
