@@ -1,0 +1,83 @@
+#separator:tab
+#html:true
+#tags:side:front side:back
+Front	Tags
+<h1>hitman</h1><p>A person paid to kill someone; a professional murderer</p><p><i>"Joe worked as a specialized <b>hitman</b> known as a looper"</i></p>	Vocabulary::Crime
+<h1>incinerator</h1><p>A furnace for burning waste; used to destroy bodies</p><p><i>"...take the body to an <b>incinerator</b> to dispose of all evidence"</i></p>	Vocabulary::Crime
+<h1>executioner</h1><p>A person who carries out a death sentence</p><p><i>"...recruited several young men to act as <b>executioners</b>"</i></p>	Vocabulary::Crime
+<h1>syndicate</h1><p>An organized group of criminals</p><p><i>"the five largest criminal <b>syndicates</b> in the future"</i></p>	Vocabulary::Crime
+<h1>torture</h1><p>inflict severe pain on someone</p><p><i>"his younger version was being <b>tortured</b> by the organization"</i></p>	Vocabulary::Crime
+<h1>destined</h1><p>Meant to happen in the future; predetermined</p><p><i>"<b>destined</b> to be shot by their younger self"</i></p>	Vocabulary::Time
+<h1>cease</h1><p>To stop or come to an end</p><p><i>"he would <b>cease</b> to exist"</i></p>	Vocabulary::Time
+<h1>vanish</h1><p>To disappear suddenly or completely</p><p><i>"making the victims <b>vanish</b> forever"</i></p>	Vocabulary::Time
+<h1>telekinesis</h1><p>The ability to move objects using only the mind</p><p><i>"born with a unique ability called <b>telekinesis</b>"</i></p>	Vocabulary::Sci-Fi
+<h1>evolution</h1><p>Gradual development; change over time</p><p><i>"<b>evolution</b> in that year had made 10% of the world's population born with these natural talents"</i></p>	Vocabulary::Sci-Fi
+<h1>trauma</h1><p>A psychological shock or painful experience</p><p><i>"older Joe would give Sid <b>trauma</b> and hatred"</i></p>	Vocabulary::Emotion
+<h1>sympathy</h1><p>Feelings of pity and sorrow for someone</p><p><i>"caused him to feel unexpected <b>sympathy</b>"</i></p>	Vocabulary::Emotion
+<h1>haunted</h1><p>Preoccupied with troubling thoughts</p><p><i>"these thoughts <b>haunted</b> him"</i></p>	Vocabulary::Emotion
+<h1>determined</h1><p>Having made a firm decision</p><p><i>"remained <b>determined</b> to kill him"</i></p>	Vocabulary::Emotion
+<h1>paradox</h1><p>A seemingly contradictory situation</p><p><i>(killing one's future self)</i></p>	Vocabulary::Concept
+<h1>inevitable</h1><p>Unavoidable; certain to happen</p><p><i>"whether it happened tomorrow or next month"</i></p>	Vocabulary::Concept
+<h1>consequence</h1><p>A result or effect of an action</p><p><i>actions ripple through time</i></p>	Vocabulary::Concept
+<h1>dispose of</h1><p><b>Phrasal Verb</b><br>To get rid of something; to eliminate</p><p><i>"...killers <b>dispose of</b> bodies by sending them back in time"</i></p>	PhrasalVerb
+<h1>send back</h1><p><b>Phrasal Verb</b><br>To return something or someone to a previous place or time</p><p><i>"...targets <b>sent back</b> from the future"</i></p>	PhrasalVerb
+<h1>track down</h1><p><b>Phrasal Verb</b><br>To find someone or something after searching</p><p><i>"older Joe had <b>tracked down</b> them"</i></p>	PhrasalVerb
+<h1>hunt down</h1><p><b>Phrasal Verb</b><br>To pursue and capture/kill someone</p><p><i>"was <b>hunting down</b> every retired looper"</i></p>	PhrasalVerb
+<h1>side with</h1><p><b>Phrasal Verb</b><br>To support or align with someone</p><p><i>"chose to <b>side with</b> the organization"</i></p>	PhrasalVerb
+<h1>close the loop</h1><p><b>Idiom</b><br>To complete a cycle; in this story, to kill one's future self</p><p><i>"This process was known as <b>closing the loop</b>"</i></p>	Idiom
+<h1>connect the dots</h1><p><b>Idiom</b><br>To understand the relationship between different things</p><p><i>"finally <b>connected the dots</b>"</i></p>	Idiom
+<h1>break the cycle</h1><p><b>Idiom</b><br>To end a repeating pattern</p><p><i>"to <b>break</b> this endless <b>cycle</b>"</i></p>	Idiom
+<h1>face to face</h1><p><b>Idiom</b><br>In person; meeting directly</p><p><i>"first time they sat <b>face to face</b>"</i></p>	Idiom
+<h1>cease to exist</h1><p><b>Expression</b><br>To stop being; to no longer exist</p><p><i>"would immediately <b>cease to exist</b>"</i></p>	Expression
+<h1>This caused...</h1><p><b>IELTS Band 7.0+</b><br>Cause and Effect marker</p><p><i>"This caused only secret criminal organizations to continue to use the technology"</i></p>	IELTS::CauseEffect
+<h1>Because of this...</h1><p><b>IELTS Band 7.0+</b><br>Result link marker</p><p><i>"Because of this, it was nearly impossible to simply bury a body"</i></p>	IELTS::CauseEffect
+<h1>This resulted in...</h1><p><b>IELTS Band 8.0+</b><br>Formal result marker</p><p><i>implied usage</i></p>	IELTS::CauseEffect
+<h1>However</h1><p><b>IELTS Band 7.0+</b><br>Standard contrast marker</p><p><i>"<b>However</b>, because the government and society in the future did not approve..."</i></p>	IELTS::Contrast
+<h1>Although</h1><p><b>IELTS Band 7.0+</b><br>Concession clause marker</p><p><i>"<b>Although</b> it felt like a heavy burden..."</i></p>	IELTS::Contrast
+<h1>Despite</h1><p><b>IELTS Band 7.5+</b><br>Prepositional concession</p><p><i>"<b>Despite</b> this risk, people like Joe...were willing to perform this task"</i></p>	IELTS::Contrast
+<h1>On the other hand</h1><p><b>IELTS Band 7.5+</b><br>Contrastive phrase</p><p><i>"<b>On the other hand</b>, back at the headquarters..."</i></p>	IELTS::Contrast
+<h1>At the same time</h1><p><b>IELTS Band 7.0+</b><br>Simultaneity marker</p><p><i>"<b>At the same time</b>, the world Joe lived in did not yet possess the technology"</i></p>	IELTS::Time
+<h1>Meanwhile</h1><p><b>IELTS Band 7.0+</b><br>Simultaneous action marker</p><p><i>"<b>Meanwhile</b>, the older version of Seth, who was still running away..."</i></p>	IELTS::Time
+<h1>By the time</h1><p><b>IELTS Band 7.0+</b><br>Temporal boundary</p><p><i>"<b>By the time</b> he arrived, he had lost both of his legs"</i></p>	IELTS::Time
+<h1>Eventually</h1><p><b>IELTS Band 7.0+</b><br>Final outcome marker</p><p><i>"he <b>eventually</b> received the task to kill his own future self"</i></p>	IELTS::Time
+<h1>What year did the story take place in?</h1><p><b>Plot Detail</b></p><p>2044 (Kansas)</p>	Plot::Setting
+<h1>What was a "looper"?</h1><p><b>Plot Detail</b></p><p>A specialized hitman who killed targets sent back from the future</p>	Plot::Concept
+<h1>What were targets paid with?</h1><p><b>Plot Detail</b></p><p>Silver bars (regular targets) or Gold bars (closing the loop)</p>	Plot::Detail
+<h1>When did time travel become possible?</h1><p><b>Plot Detail</b></p><p>2074 (30 years after 2044)</p>	Plot::WorldBuilding
+<h1>Who led the Looper organization?</h1><p><b>Character</b></p><p>Abe (a criminal leader from the future)</p>	Character::Leader
+<h1>What was "closing the loop"?</h1><p><b>Plot Concept</b></p><p>Killing one's future self to eliminate witnesses</p>	Plot::Concept
+<h1>What special ability did Seth have?</h1><p><b>Character Ability</b></p><p>Telekinesis (moving objects with his mind)</p>	Character::Ability
+<h1>Who was the Rain Maker?</h1><p><b>Character/Villain</b></p><p>A mysterious figure who took over criminal syndicates and hunted retired loopers</p>	Character::Villain
+<h1>Who was Sid living with?</h1><p><b>Character Detail</b></p><p>Sarah (his mother) on a farm</p>	Character::Relationship
+<h1>How did young Joe save the future?</h1><p><b>Plot Resolution</b></p><p>By shooting himself, making older Joe vanish and preventing Sid's trauma</p>	Plot::Resolution
+<h1>What percentage of people had telekinetic abilities?</h1><p><b>World Building</b></p><p>10% of the population</p>	Plot::WorldBuilding
+<h1>Why was crime impossible in 2074?</h1><p><b>World Building</b></p><p>Tracking technology was so advanced that even the smallest evidence could be discovered</p>	Plot::WorldBuilding
+<h1>Why did Seth fail to close his loop?</h1><p><b>Plot Point</b></p><p>His older self sang and told stories, making him feel sympathy and lose concentration</p>	Plot::Event
+<h1>What happened when young Seth was tortured?</h1><p><b>Plot Point</b></p><p>His older self began losing body parts (fingers, nose, legs)</p>	Plot::Event
+<h1>Why did older Joe travel back to 2044?</h1><p><b>Character Motivation</b></p><p>To kill the Rain Maker as a child and save his wife</p>	Character::Motivation
+<h1>Why were bodies sent back in time?</h1><p><b>Plot Explanation</b></p><p>Because tracking technology in the future was too advanced to hide crimes</p>	Plot::Explanation
+<h1>What powers did Sid have?</h1><p><b>Character Ability</b></p><p>Extremely powerful telekinesis - stronger than anyone else's</p>	Character::Ability
+<h1>How did young Joe break the endless loop?</h1><p><b>Plot Resolution</b></p><p>By shooting himself, causing older Joe to cease to exist</p>	Plot::Resolution
+<h1>Theme: Fate vs. Free Will</h1><p><b>Thematic Discussion</b></p><p>Can we change our destiny, or is our future already written? The story explores whether knowing the future allows us to change it.</p>	Theme::Philosophy
+<h1>Theme: Cause and Effect</h1><p><b>Thematic Discussion</b></p><p>Actions in the present ripple through time. Older Joe's attempt to save his wife creates the very future he fears.</p>	Theme::Philosophy
+<h1>Theme: Moral Responsibility</h1><p><b>Thematic Discussion</b></p><p>Are we responsible for creating the monsters we fear? The story suggests older Joe creates the Rain Maker through his actions.</p>	Theme::Ethics
+<h1>Theme: Sacrifice</h1><p><b>Thematic Discussion</b></p><p>Sometimes breaking a cycle requires personal sacrifice. Young Joe gives his life to save Sarah and Sid.</p>	Theme::Ethics
+<h1>Theme: Identity</h1><p><b>Thematic Discussion</b></p><p>What connects our past, present, and future selves? The story explores how different versions of the same person interact.</p>	Theme::Philosophy
+<h1>Why did loopers agree to close their loops?</h1><p><b>Discussion Question</b></p><p>Possible answers: the gold bars (wealth), belief they could change their fate, reckless lifestyle, lack of other options</p>	Discussion::CriticalThinking
+<h1>Did young Joe make the right decision at the end?</h1><p><b>Discussion Question</b></p><p>Open-ended: Discuss sacrifice, breaking cycles, moral responsibility, selflessness vs. self-preservation</p>	Discussion::Ethics
+<h1>Is older Joe a villain or a victim?</h1><p><b>Discussion Question</b></p><p>Open-ended: Discuss his motivations (love for wife), actions (killing children), moral complexity</p>	Discussion::CharacterAnalysis
+<h1>What happened to Sid and Sarah after the story?</h1><p><b>Speculation</b></p><p>Open-ended: Did Sid avoid becoming the Rain Maker? How did they live?</p>	Discussion::Prediction
+<h1>Execute a complete sentence using "hitman"</h1><p><b>Sentence Production</b></p><p>Example: The <b>hitman</b> was paid to eliminate the target without leaving any evidence.</p>	Practice::Sentence
+<h1>Execute a complete sentence using "cease"</h1><p><b>Sentence Production</b></p><p>Example: Without funding, the project would <b>cease</b> to exist within months.</p>	Practice::Sentence
+<h1>Execute a complete sentence using "vanish"</h1><p><b>Sentence Production</b></p><p>Example: The magician made the rabbit <b>vanish</b> from the hat in seconds.</p>	Practice::Sentence
+<h1>Execute a complete sentence using "dispose of"</h1><p><b>Sentence Production</b></p><p>Example: You must properly <b>dispose of</b> hazardous materials according to regulations.</p>	Practice::Sentence
+<h1>Execute a complete sentence using "track down"</h1><p><b>Sentence Production</b></p><p>Example: The investigator managed to <b>track down</b> the witness after weeks of searching.</p>	Practice::Sentence
+<h1>Execute a complete sentence using "side with"</h1><p><b>Sentence Production</b></p><p>Example: Despite the pressure, she refused to <b>side with</b> either faction in the dispute.</p>	Practice::Sentence
+<h1>Execute a complete sentence using "destined"</h1><p><b>Sentence Production</b></p><p>Example: Many believed he was <b>destined</b> for greatness from a young age.</p>	Practice::Sentence
+<h1>Execute a complete sentence using "trauma"</h1><p><b>Sentence Production</b></p><p>Example: The accident left her with psychological <b>trauma</b> that took years to overcome.</p>	Practice::Sentence
+<h1>Execute a complete sentence using "hunt down"</h1><p><b>Sentence Production</b></p><p>Example: The authorities vowed to <b>hunt down</b> those responsible for the crime.</p>	Practice::Sentence
+<h1>Execute a complete sentence using "figure out"</h1><p><b>Sentence Production</b></p><p>Example: It took us hours to <b>figure out</b> the solution to the puzzle.</p>	Practice::Sentence
+<h1>Summarize the story in one sentence.</h1><p><b>Comprehension</b></p><p>A hitman named Joe must confront his future self who has traveled back in time to kill a child who will become a dictator, leading to a sacrifice that breaks the cycle of violence.</p>	Comprehension::Summary
+<h1>What is the central conflict of the story?</h1><p><b>Analysis</b></p><p>Man vs. Self (young vs. old Joe), Man vs. Fate (changing destiny), Man vs. Society (against the criminal organization)</p>	Analysis::Conflict
+<h1>How does the story use time travel as a metaphor?</h1><p><b>Analysis</b></p><p>Time travel represents how our past actions affect our future, and how confronting our past selves is necessary for growth.</p>	Analysis::Symbolism
+<h1>What role does trauma play in the story?</h1><p><b>Analysis</b></p><p>Trauma is shown as the cause of the Rain Maker's transformation, suggesting that violence creates more violence.</p>	Analysis::Theme

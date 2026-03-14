@@ -1,5 +1,5 @@
 # 用户工作区输出
-projects/*/learning-materials/
+# projects/*/learning-materials/
 
 # Claude Code 本地配置
 .claude/local/
