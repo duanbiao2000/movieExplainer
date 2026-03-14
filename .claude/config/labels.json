@@ -1,0 +1,62 @@
+{
+  "en": {
+    "vocabulary": {
+      "label_ipa": "IPA",
+      "label_meaning": "Meaning",
+      "label_example": "Example",
+      "label_synonyms": "Synonyms",
+      "label_context": "Context"
+    },
+    "prompts": {
+      "extract_intro": "Extract vocabulary from the following text. Focus on words useful for IELTS preparation.",
+      "review_intro": "Review the following content for quality, accuracy, and completeness.",
+      "optimize_intro": "Optimize the following content for clarity and educational value."
+    },
+    "output_formats": {
+      "anki_header": "#separator:tab\n#html:true\n#tags:ielts",
+      "markdown_header": "# Vocabulary List\n\n"
+    },
+    "categories": {
+      "academic": "Academic",
+      "colloquial": "Colloquial",
+      "idiomatic": "Idiomatic",
+      "phrasal": "Phrasal Verb"
+    },
+    "proficiency_levels": {
+      "c2": "Mastery",
+      "c1": "Advanced",
+      "b2": "Upper Intermediate",
+      "b1": "Intermediate"
+    }
+  },
+  "zh": {
+    "vocabulary": {
+      "label_ipa": "国际音标",
+      "label_meaning": "释义",
+      "label_example": "例句",
+      "label_synonyms": "同义词",
+      "label_context": "语境"
+    },
+    "prompts": {
+      "extract_intro": "从以下文本中提取词汇。重点关注对雅思备考有用的词汇。",
+      "review_intro": "审查以下内容的质量、准确性和完整性。",
+      "optimize_intro": "优化以下内容的清晰度和教育价值。"
+    },
+    "output_formats": {
+      "anki_header": "#separator:tab\n#html:true\n#tags:雅思",
+      "markdown_header": "# 词汇表\n\n"
+    },
+    "categories": {
+      "academic": "学术",
+      "colloquial": "口语",
+      "idiomatic": "习语",
+      "phrasal": "短语动词"
+    },
+    "proficiency_levels": {
+      "c2": "精通",
+      "c1": "高级",
+      "b2": "中高级",
+      "b1": "中级"
+    }
+  }
+}
