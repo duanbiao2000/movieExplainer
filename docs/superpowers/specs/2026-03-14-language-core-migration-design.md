@@ -53,6 +53,8 @@ Existing State                      Target State
 4. **Update `CLAUDE.md`** - Change project overview to English
 5. **Create English versions of developer docs** - Parallel documentation (EN/ZH)
 
+> **Note**: This specification changes the default language from `zh` to `en`, diverging from the existing `.claude/future/internationalization.md` roadmap which specified Chinese as default. This is intentional to better serve the global user base and align with international best practices.
+
 ---
 
 ## File Changes
@@ -84,6 +86,161 @@ Existing State                      Target State
 | Path | Action |
 |------|--------|
 | `.claude/future/internationalization.md` | Archive to `.claude/archive/` (plan implemented) |
+
+---
+
+## Template System Architecture
+
+### Template Syntax
+
+The template system uses a simple string substitution pattern. Agents reference localized content using the following syntax:
+
+```
+{{labels.<lang>.<category>.<key>}}
+```
+
+### Resolution Mechanism
+
+**Important**: In this document-driven architecture, template substitution is **not** an automated runtime process. Instead:
+
+1. **param-middleware Agent** receives the `--language` parameter
+2. It **constructs a configuration object** containing the resolved language strings from `labels.json`
+3. This configuration is **passed to downstream Agents** via their input context
+4. Agents use the resolved strings directly in their prompts (no template engine needed)
+
+### Example: Before and After
+
+**Agent Configuration (Before)**:
+
+```markdown
+## Output Format
+
+输出词汇表时，使用以下格式：
+- **IPA**: [国际音标]
+- **释义**: [中文释义]
+```
+
+**Agent Configuration (After)**:
+
+```markdown
+## Output Format
+
+When outputting vocabulary, use the following format:
+- **IPA**: [International Phonetic Alphabet]
+- **Meaning**: [Definition]
+
+The actual labels to use will be provided in the `output_labels` field of your input context.
+```
+
+**Configuration Object Passed to Agent**:
+```json
+{
+  "language": "en",
+  "output_labels": {
+    "ipa": "IPA",
+    "meaning": "Meaning",
+    "example": "Example"
+  }
+}
+```
+
+### labels.json Complete Structure
+
+```json
+{
+  "en": {
+    "vocabulary": {
+      "label_ipa": "IPA",
+      "label_meaning": "Meaning",
+      "label_example": "Example",
+      "label_synonyms": "Synonyms",
+      "label_context": "Context"
+    },
+    "prompts": {
+      "extract_intro": "Extract vocabulary from the following text...",
+      "review_intro": "Review the following content for quality..."
+    },
+    "output_formats": {
+      "anki_header": "#separator:tab\n#html:true\n#tags:ielts",
+      "markdown_header": "# Vocabulary List\n\n"
+    },
+    "categories": {
+      "academic": "Academic",
+      "colloquial": "Colloquial",
+      "idiomatic": "Idiomatic"
+    },
+    "proficiency_levels": {
+      "c2": "Mastery",
+      "c1": "Advanced",
+      "b2": "Upper Intermediate"
+    }
+  },
+  "zh": {
+    "vocabulary": {
+      "label_ipa": "国际音标",
+      "label_meaning": "释义",
+      "label_example": "例句",
+      "label_synonyms": "同义词",
+      "label_context": "语境"
+    },
+    "prompts": {
+      "extract_intro": "从以下文本中提取词汇...",
+      "review_intro": "审查以下内容的质量..."
+    },
+    "output_formats": {
+      "anki_header": "#separator:tab\n#html:true\n#tags:雅思",
+      "markdown_header": "# 词汇表\n\n"
+    },
+    "categories": {
+      "academic": "学术",
+      "colloquial": "口语",
+      "idiomatic": "习语"
+    },
+    "proficiency_levels": {
+      "c2": "精通",
+      "c1": "高级",
+      "b2": "中高级"
+    }
+  }
+}
+```
+
+### Language Parameter Flow
+
+```
+User Command: /extract-subtitle video.srt -l zh
+       │
+       ▼
+┌──────────────────────────┐
+│  extract-subtitle SKILL  │
+│  - Captures -l zh        │
+└──────────────────────────┘
+       │
+       ▼
+┌──────────────────────────┐
+│  param-middleware Agent  │
+│  - Validates language    │
+│  - Reads labels.json     │
+│  - Builds config object  │
+└──────────────────────────┘
+       │
+       ▼ passes config object to all downstream agents
+┌──────────────────────────┐
+│  subtitle-parser Agent   │
+│  Input: {language: "zh", │
+│          labels: {...}}  │
+└──────────────────────────┘
+       │
+       ▼
+┌──────────────────────────┐
+│  content-extractor Agent │
+│  Input: {language: "zh", │
+│          labels: {...},  │
+│          parsed_subs}    │
+└──────────────────────────┘
+       │
+       └───► (continues through workflow with language context)
+```
 
 ---
 
@@ -206,6 +363,70 @@ Each Agent update:
 | **Poor translation quality causes Agent behavior issues** | Output quality degradation | Medium | 1) Professional translation 2) Per-Agent validation 3) Keep Chinese as fallback |
 | **labels.json structure poorly designed** | Technical debt | Medium | 1) Reference i18n best practices 2) Flexible nested structure 3) Extensibility预留 |
 | **Existing Chinese learning materials users affected** | Compatibility issues | Low | Language parameter only affects new materials, existing materials unchanged |
+
+---
+
+## Testing Strategy
+
+### Unit Tests
+
+**labels.json Validation**:
+
+- JSON schema validation
+- Verify all English keys have corresponding Chinese keys
+- Verify no orphaned (missing translation) keys
+
+**Parameter Validation**:
+
+- Test valid language codes: `en`, `zh`
+- Test invalid language codes are rejected
+- Test default behavior when no language specified
+
+### Integration Tests
+
+**Parameter Passing Flow**:
+
+- Verify `param-middleware` passes language to all downstream Agents
+- Verify each Agent receives and uses the correct labels from context
+
+**Language Output Verification**:
+
+```bash
+# Test English output (default)
+/extract-subtitle test.srt
+# Verify: vocabulary.md contains English labels
+
+# Test Chinese output
+/extract-subtitle test.srt -l zh
+# Verify: vocabulary.md contains Chinese labels
+
+# Test all 7 language-dependent Agents
+# For each agent, verify output language matches parameter
+```
+
+### Regression Tests
+
+**Backward Compatibility**:
+
+```bash
+# Existing Chinese workflow should produce identical results
+/extract-subtitle test.srt -l zh
+# Compare with pre-migration baseline output
+```
+
+**Edge Cases**:
+
+- Missing or malformed `labels.json` → Should fail gracefully with clear error
+- Partial translations (missing keys) → Should warn and use fallback language
+- Empty subtitle file → Should handle regardless of language setting
+
+### Test Data
+
+**Sample Test Files**:
+
+- `test/fixtures/sample-bilingual.srt` - Bilingual subtitle for testing
+- `test/fixtures/baselines/zh-output/` - Pre-migration Chinese outputs for comparison
+- `test/fixtures/baselines/en-output/` - Expected English outputs
 
 ---
 
