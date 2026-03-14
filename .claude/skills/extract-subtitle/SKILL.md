@@ -27,7 +27,29 @@ description: 从视频字幕文件自动提取雅思学习材料 (支持 .srt, .
 
 确认文件存在且格式支持。
 
-### 步骤 2.5: 参数标准化 [NEW]
+### 步骤 2.2: 目录组织检查 [NEW]
+
+检测字幕文件位置，确保学习材料统一组织在 `projects/` 目录下：
+
+**检查逻辑**：
+1. 判断字幕文件父目录是否为项目根目录（不是 `projects/` 的子目录）
+2. 如果是根目录字幕文件：
+   - 从文件名生成项目名称（简化文件名，最多 12 个单词，Title Case）
+   - 创建 `projects/[项目名称]/` 目录
+   - 将字幕文件移动到项目目录
+   - 设置输出路径为 `projects/[项目名称]/learning-materials/`
+3. 如果已在 `projects/` 子目录，使用现有目录结构
+
+**项目命名规则**（简化文件名）：
+- 直接从 SRT 文件名提取
+- 移除文件扩展名 (.srt)
+- 清理格式：移除特殊符号，统一为 Title Case
+- 限制最多 12 个单词（超出则截取前 12 个）
+- 示例：
+  - `"The Data movie.srt"` → `"The Data Movie"`
+  - `"In The Future, Killers Dispose of Bodies By Sending Them Back in Time.srt"` → `"In The Future Killers Dispose"`
+
+### 步骤 2.5: 参数标准化
 
 使用 `param-middleware` SubAgent 处理参数：
 - 将原始参数转换为标准配置对象
@@ -75,17 +97,21 @@ description: 从视频字幕文件自动提取雅思学习材料 (支持 .srt, .
 #tags:true
 
 Front	Back	Tags
-"comprehensive"	"<b>音标</b>: /ˌkɒmprɪˈhensɪv/<br><b>中文</b>: 全面的<br><b>词性</b>: adj<br><b>搭配</b>: ...<br><b>IELTS评分</b>: LR 7.0+"	"vocabulary academic priority-2"
-"account for"	"<b>中文</b>: 是……的原因<br><b>例句</b>: ...<br><b>IELTS应用</b>: ..."	"verb-phrase priority-1"
+"comprehensive"	"<b>IPA</b>: /ˌkɒmprɪˈhensɪv/<br><b>Definition</b>: comprehensive<br><b>POS</b>: adj<br><b>Collocation</b>: ...<br><b>IELTS Score</b>: LR 7.0+"	"vocabulary academic priority-2"
+"account for"	"<b>Definition</b>: to cause; to form the bulk of<br><b>Example</b>: ...<br><b>IELTS Application</b>: ..."	"verb-phrase priority-1"
 ```
 
+**标签说明**：标签根据 `language` 参数使用对应语言版本（见 `.claude/config/labels.json`）
+- 英文模式：`<b>IPA</b>`, `<b>Definition</b>`, `<b>POS</b>`, `<b>Collocation</b>`, `<b>IELTS Score</b>`, `<b>IELTS Application</b>`
+- 中文模式：`<b>音标</b>`, `<b>中文</b>`, `<b>词性</b>`, `<b>搭配</b>`, `<b>IELTS评分</b>`, `<b>IELTS应用</b>`
+
 **音标规则**:
-- `vocabulary-*` 和 `topic-*` 标签的卡片 → **添加音标**，格式 `<b>音标</b>: /音标/<br>`，置于 Back 字段最前
+- `vocabulary-*` 和 `topic-*` 标签的卡片 → **添加音标**，格式 `<b>IPA</b>: /音标/<br>`（英文）或 `<b>音标</b>: /音标/<br>`（中文），置于 Back 字段最前
 - `verb-phrase-*`, `expression-*`, `key-point-*`, `collocation-*` → **不添加音标**
 
 ### 步骤 7: 保存文件
 
-将结果保存到字幕文件同目录下的 `learning-materials/` 文件夹。
+将结果保存到步骤 2.2 确定的输出路径下的 `learning-materials/` 文件夹。
 
 **如果提供了 `video_url` 参数**，额外生成 `video-source.md`：
 

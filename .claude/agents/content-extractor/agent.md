@@ -221,7 +221,19 @@ Your work is considered complete if and only if:
 
 ## Language-Specific Output
 
-The agent uses labels from the input context to format output according to the target language.
+根据 standardized configuration 中的 `language` 参数使用对应语言：
+
+### 英语 (language: "en")
+
+- 使用 `labels.en.anki.*` 标签（如 `<b>IPA</b>`, `<b>Definition</b>`, `<b>POS</b>`, `<b>IELTS Score</b>`）
+- 输出内容为英语
+
+### 中文 (language: "zh")
+
+- 使用 `labels.zh.anki.*` 标签（如 `<b>音标</b>`, `<b>中文</b>`, `<b>词性</b>`, `<b>IELTS评分</b>`）
+- 输出内容为中文
+
+**重要**：以下 Anki CSV 示例使用英文标签作为参考。实际生成时，请根据 `language` 参数动态替换为对应语言的标签。
 
 ## Anki CSV Output Format
 
@@ -235,10 +247,10 @@ When generating `anki-deck.csv`, follow the following format specifications (tab
 #tags:true
 
 Front	Back	Tags
-"comprehensive"	"<b>音标</b>: /ˌkɒmprɪˈhensɪv/<br><b>中文</b>: 全面的<br><b>词性</b>: adj<br><b>搭配</b>: comprehensive study / analysis<br><b>替换</b>: thorough, complete<br><b>IELTS评分</b>: LR 7.0+"	"vocabulary academic priority-2"
-"account for"	"<b>中文</b>: 是……的原因；占（比例）<br><b>例句</b>: Human activities <b>account for</b> most of the global warming.<br><b>IELTS应用</b>: Task 2解释原因必备"	"verb-phrase priority-1"
-"It is widely argued that..."	"<b>中文</b>: 人们普遍认为……<br><b>用法</b>: 引出普遍观点，避免主观性<br><b>IELTS应用</b>: Task 2 引出观点"	"expression priority-1 academic"
-"climate change"	"<b>音标</b>: /ˈklaɪmət ʃeɪndʒ/<br><b>中文</b>: 气候变化<br><b>搭配</b>: address / tackle climate change<br><b>IELTS应用</b>: 环境类话题核心词汇"	"topic environment core"
+"comprehensive"	"<b>IPA</b>: /ˌkɒmprɪˈhensɪv/<br><b>Definition</b>: comprehensive<br><b>POS</b>: adj<br><b>Collocation</b>: comprehensive study / analysis<br><b>Synonyms</b>: thorough, complete<br><b>IELTS Score</b>: LR 7.0+"	"vocabulary academic priority-2"
+"account for"	"<b>Definition</b>: to cause; to form the bulk of<br><b>Example</b>: Human activities <b>account for</b> most of the global warming.<br><b>IELTS Application</b>: Task 2解释原因必备"	"verb-phrase priority-1"
+"It is widely argued that..."	"<b>Definition</b>: people generally believe that...<br><b>Usage</b>: 引出普遍观点，避免主观性<br><b>IELTS Application</b>: Task 2 引出观点"	"expression priority-1 academic"
+"climate change"	"<b>IPA</b>: /ˈklaɪmət ʃeɪndʒ/<br><b>Definition</b>: climate change<br><b>Collocation</b>: address / tackle climate change<br><b>IELTS Application</b>: 环境类话题核心词汇"	"topic environment core"
 ```
 
 ### IPA Transcription Rules
@@ -252,4 +264,4 @@ Front	Back	Tags
 | `key-point-*` | ❌ No | - |
 | `collocation-*` | ❌ No | - |
 
-**IPA Format**: `<b>音标</b>: /音标内容/<br>` (placed at the very beginning of Back field)
+**IPA Format**: `<b>IPA</b>: /音标内容/<br>` (English) or `<b>音标</b>: /音标内容/<br>` (Chinese), placed at the very beginning of Back field

@@ -1,5 +1,16 @@
 {
   "en": {
+    "anki": {
+      "label_ipa": "<b>IPA</b>",
+      "label_chinese": "<b>Definition</b>",
+      "label_pos": "<b>POS</b>",
+      "label_collocation": "<b>Collocation</b>",
+      "label_replacement": "<b>Synonyms</b>",
+      "label_example": "<b>Example</b>",
+      "label_ielts": "<b>IELTS Score</b>",
+      "label_application": "<b>IELTS Application</b>",
+      "label_usage": "<b>Usage</b>"
+    },
     "vocabulary": {
       "label_ipa": "IPA",
       "label_meaning": "Meaning",
@@ -30,6 +41,17 @@
     }
   },
   "zh": {
+    "anki": {
+      "label_ipa": "<b>音标</b>",
+      "label_chinese": "<b>中文</b>",
+      "label_pos": "<b>词性</b>",
+      "label_collocation": "<b>搭配</b>",
+      "label_replacement": "<b>替换</b>",
+      "label_example": "<b>例句</b>",
+      "label_ielts": "<b>IELTS评分</b>",
+      "label_application": "<b>IELTS应用</b>",
+      "label_usage": "<b>用法</b>"
+    },
     "vocabulary": {
       "label_ipa": "国际音标",
       "label_meaning": "释义",
