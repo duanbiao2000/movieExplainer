@@ -23,7 +23,8 @@
       "Bash(gh api:*)",
       "Bash(gh repo:*)",
       "Bash(git pull:*)",
-      "Bash(git merge:*)"
+      "Bash(git merge:*)",
+      "Bash(python -c \"import uuid; import json; from datetime import datetime; session_id = str\\(uuid.uuid4\\(\\)\\); start_time = datetime.now\\(\\).isoformat\\(\\); config = {:*)"
     ]
   }
 }

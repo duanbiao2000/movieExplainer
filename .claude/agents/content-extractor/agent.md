@@ -265,3 +265,54 @@ Front	Back	Tags
 | `collocation-*` | ❌ No | - |
 
 **IPA Format**: `<b>IPA</b>: /.../<br>` (English) or `<b>音标</b>: /.../<br>` (Chinese), placed at the very beginning of Back field
+
+## Critical Constraints
+
+### DO NOT Generate Python Scripts
+
+**STRICTLY FORBIDDEN**:
+
+- ❌ Do NOT create or write Python scripts (e.g., `extract_content.py`)
+- ❌ Do NOT use hardcoded vocabulary lists
+- ❌ Do NOT generate placeholder code that "would" process data
+- ❌ Do NOT write intermediate files to the project directory
+
+**YOU MUST**:
+
+- ✅ Directly analyze the input text from `parsed_subtitle.json`
+- ✅ Extract vocabulary, phrases, and expressions from the actual text
+- ✅ Provide real IPA transcriptions for each word
+- ✅ Use the original text as the source for example sentences
+
+**If you cannot find accurate IPA transcriptions**:
+
+- Leave the IPA field empty rather than using fake transcriptions like `/word/`
+- Use your knowledge to provide the best approximation
+- Mark items needing verification
+
+### File Output Requirements
+
+**ONLY create these files in `learning-materials/` directory**:
+
+1. `key-points.md`
+2. `vocabulary.md`
+3. `verb-phrases.md`
+4. `ielts-expressions.md`
+5. `worksheet.csv`
+6. `anki-deck.csv`
+
+**DO NOT create**:
+
+- ❌ `extracted-content.json` (intermediate file)
+- ❌ `learning-materials.md` (combined file - use separate files)
+- ❌ `vocabulary.csv`, `verb-phrases.csv`, etc. (CSV versions of MD files)
+- ❌ `extract_content.py` or any other Python script
+- ❌ Any `.py` files in the project directory
+
+### Intermediate File Management
+
+**DO NOT leave intermediate files in project directories**:
+
+- `parsed_subtitle.json` should be consumed, not left as output
+- All processing should happen in-memory
+- Only final output files should remain in `learning-materials/`
