@@ -146,3 +146,34 @@ description: 从文本中提取雅思学习内容 (Key Points, Verb Phrases, Voc
 3. **实用性** - 优先选择考试中实用的表达
 4. **原文引用** - 尽可能使用原文作为例句
 5. **难度标注** - 根据雅思分数标准标注难度
+
+## Anki CSV 输出格式
+
+生成 `anki-deck.csv` 时遵循以下格式规范（制表符分隔）：
+
+### CSV 格式规范
+
+```csv
+#separator:tab
+#html:true
+#tags:true
+
+Front	Back	Tags
+"comprehensive"	"<b>音标</b>: /ˌkɒmprɪˈhensɪv/<br><b>中文</b>: 全面的<br><b>词性</b>: adj<br><b>搭配</b>: comprehensive study / analysis<br><b>替换</b>: thorough, complete<br><b>IELTS评分</b>: LR 7.0+"	"vocabulary academic priority-2"
+"account for"	"<b>中文</b>: 是……的原因；占（比例）<br><b>例句</b>: Human activities <b>account for</b> most of the global warming.<br><b>IELTS应用</b>: Task 2解释原因必备"	"verb-phrase priority-1"
+"It is widely argued that..."	"<b>中文</b>: 人们普遍认为……<br><b>用法</b>: 引出普遍观点，避免主观性<br><b>IELTS应用</b>: Task 2 引出观点"	"expression priority-1 academic"
+"climate change"	"<b>音标</b>: /ˈklaɪmət ʃeɪndʒ/<br><b>中文</b>: 气候变化<br><b>搭配</b>: address / tackle climate change<br><b>IELTS应用</b>: 环境类话题核心词汇"	"topic environment core"
+```
+
+### 音标规则
+
+| 卡片类型 | 是否添加音标 | 音标位置 |
+|---------|-------------|---------|
+| `vocabulary-*` | ✅ 是 | Back 字段第一行 |
+| `topic-*` | ✅ 是 | Back 字段第一行 |
+| `verb-phrase-*` | ❌ 否 | - |
+| `expression-*` | ❌ 否 | - |
+| `key-point-*` | ❌ 否 | - |
+| `collocation-*` | ❌ 否 | - |
+
+**音标格式**: `<b>音标</b>: /音标内容/<br>` （置于 Back 字段最前）

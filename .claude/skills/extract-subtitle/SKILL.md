@@ -56,6 +56,22 @@ description: 从视频字幕文件自动提取雅思学习材料 (支持 .srt, .
 
 **注意**: 仅生成纯学习材料，不生成 study-plan.md 等辅助性文档。
 
+#### anki-deck.csv 格式规范
+
+```csv
+#separator:tab
+#html:true
+#tags:true
+
+Front	Back	Tags
+"comprehensive"	"<b>音标</b>: /ˌkɒmprɪˈhensɪv/<br><b>中文</b>: 全面的<br><b>词性</b>: adj<br><b>搭配</b>: ...<br><b>IELTS评分</b>: LR 7.0+"	"vocabulary academic priority-2"
+"account for"	"<b>中文</b>: 是……的原因<br><b>例句</b>: ...<br><b>IELTS应用</b>: ..."	"verb-phrase priority-1"
+```
+
+**音标规则**:
+- `vocabulary-*` 和 `topic-*` 标签的卡片 → **添加音标**，格式 `<b>音标</b>: /音标/<br>`，置于 Back 字段最前
+- `verb-phrase-*`, `expression-*`, `key-point-*`, `collocation-*` → **不添加音标**
+
 ### 步骤 7: 保存文件
 
 将结果保存到字幕文件同目录下的 `learning-materials/` 文件夹。
