@@ -64,7 +64,7 @@ Existing State                      Target State
 | Path | Description | Priority |
 |------|-------------|----------|
 | `.claude/config/labels.json` | Centralized EN/ZH labels, prompts, templates | P0 - Core |
-| `documents/philosophy-analysis.en.md` | English version of philosophy analysis | P2 - Dev Docs |
+| `docs/developer/philosophy-analysis.en.md` | English version of philosophy analysis | P2 - Dev Docs |
 
 ### Modified Files
 
@@ -80,12 +80,14 @@ Existing State                      Target State
 | `.claude/agents/param-middleware/agent.md` | Description → EN | P1 |
 | `CLAUDE.md` | Project overview → EN | P1 |
 | `README.md` | Update default language documentation | P2 |
+| `documents/*` → `docs/developer/*` | Move developer docs to unified path | P2 |
 
 ### Archived Files
 
 | Path | Action |
 |------|--------|
 | `.claude/future/internationalization.md` | Archive to `.claude/archive/` (plan implemented) |
+| `documents/` directory | Consolidate into `docs/` (see Phase 5) |
 
 ---
 
@@ -341,12 +343,19 @@ Each Agent update:
 **Objective**: Developer documentation in parallel languages
 
 **Tasks**:
-1. Create `documents/philosophy-analysis.en.md`
+
+1. **Consolidate documentation structure**
+   - Move `documents/philosophy-analysis.md` → `docs/developer/philosophy-analysis.zh.md`
+   - Move `documents/README.md` → `docs/developer/README.md`
+   - Create new `docs/developer/philosophy-analysis.en.md`
+
+2. **Create English version of philosophy analysis**
    - Translate core philosophical concepts
    - Preserve Chinese terms (e.g., "Yin-Yang dialectic") with English explanations
 
-2. Update `documents/README.md`
+3. **Update `docs/developer/README.md`**
    - Add EN/ZH documentation links
+   - Update internal path references
 
 **Verification**:
 - English-speaking developers can understand project design philosophy
@@ -452,7 +461,8 @@ Each Agent update:
 - [ ] New users can successfully run following English documentation
 
 **Phase 5 Complete**:
-- [ ] `philosophy-analysis.en.md` exists
+- [ ] `documents/` moved to `docs/developer/`
+- [ ] `philosophy-analysis.en.md` exists in `docs/developer/`
 - [ ] English-speaking developers understand design philosophy
 
 ### Regression Testing
