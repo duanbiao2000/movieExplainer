@@ -1,35 +1,37 @@
-# MovieExplainer 项目配置
+# MovieExplainer Project Configuration
 
-这是 MovieExplainer 项目的 Claude Code 配置文件。
+This is the Claude Code configuration file for the MovieExplainer project.
 
-## 项目概述
+## Project Overview
 
-雅思字幕学习材料自动生成工作流系统。
+Automated IELTS learning material generation workflow from subtitle files.
 
-## 可用命令
+## Available Commands
 
 ### /extract-subtitle
 
-处理字幕文件，生成学习材料。
+Process subtitle files to generate learning materials.
 
-**用法**:
-- `/extract-subtitle <文件路径>` - 处理指定字幕
-- `/extract-subtitle <文件路径> --target-band 7.5` - 指定目标分数
-- `/extract-subtitle <文件路径> --formats md,anki` - 选择输出格式
+**Usage:**
+- `/extract-subtitle <file-path>` - Process specified subtitle (English output by default)
+- `/extract-subtitle <file-path> --language zh` - Generate Chinese output
+- `/extract-subtitle <file-path> -l en` - Explicit English output
+- `/extract-subtitle <file-path> --target-band 7.5` - Specify target score
+- `/extract-subtitle <file-path> --formats md,anki` - Select output formats
 
-## 工作流组件
+## Workflow Components
 
-- **字幕解析器** (`.claude/agents/subtitle-parser/`) - 解析 SRT/VTT/TXT 格式
-- **内容提取器** (`.claude/agents/content-extractor/`) - 提取学习内容
-- **内容审核器** (`.claude/agents/content-reviewer/`) - 质量检查
-- **迭代优化器** (`.claude/agents/iteration-optimizer/`) - 多轮改进
-- **雅思学习顾问** (`.claude/agents/ielts-coach/`) - 交互式个性化定制
-- **润色重构器** (`.claude/agents/polish-refactoror/`) - 风格化+元认知强化
+- **Subtitle Parser** (`.claude/agents/subtitle-parser/`) - Parses SRT/VTT/TXT formats
+- **Content Extractor** (`.claude/agents/content-extractor/`) - Extracts learning content
+- **Content Reviewer** (`.claude/agents/content-reviewer/`) - Quality checking
+- **Iteration Optimizer** (`.claude/agents/iteration-optimizer/`) - Iterative improvement
+- **IELTS Coach** (`.claude/agents/ielts-coach/`) - Interactive personalized coaching
+- **Polish Refactoror** (`.claude/agents/polish-refactoror/`) - Styling + metacognitive enhancement
 
-## 输出位置
+## Output Location
 
-学习材料默认保存在字幕文件同目录下的 `learning-materials/` 文件夹。
+Learning materials are saved in `learning-materials/` folder next to the subtitle file by default.
 
-## 配置文件
+## Configuration
 
-项目级配置位于 `.claude/config/learning-materials.json`。
+Project-level configuration is in `.claude/config/learning-materials.json` and `.claude/config/labels.json`.
